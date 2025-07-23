@@ -1,4 +1,5 @@
 import FaqSection from "@/components/Home/FaqSection";
+import Footer from "@/components/Home/FooterSection";
 import HeroSection from "@/components/Home/Hero";
 import Navbar from "@/components/Home/Navbar";
 import PrescriptionGuide from "@/components/Home/PrescriptionGuide";
@@ -16,6 +17,7 @@ export default function Home() {
       <WhyUseUsSection/>
       <PricingSection/>
       <FaqSection/>
+      <Footer/>
     </div>
   );
 }
