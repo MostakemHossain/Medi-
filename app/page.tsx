@@ -1,3 +1,4 @@
+import AppIntroSection from "@/components/Home/AppIntroSection";
 import FaqSection from "@/components/Home/FaqSection";
 import Footer from "@/components/Home/FooterSection";
 import HeroSection from "@/components/Home/Hero";
@@ -17,6 +18,7 @@ export default function Home() {
       <WhyUseUsSection/>
       <PricingSection/>
       <FaqSection/>
+      <AppIntroSection/>
       <Footer/>
     </div>
   );
