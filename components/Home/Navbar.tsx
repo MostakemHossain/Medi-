@@ -66,7 +66,7 @@ export default function Header() {
             </div>
           </Link>
 
-          {/* ডেস্কটপ মেনু */}
+        
           <nav className="hidden md:flex space-x-8 text-gray-700 font-semibold text-sm">
             {NAV_ITEMS.map((item) => (
               <Link

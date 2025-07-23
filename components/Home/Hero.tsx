@@ -40,7 +40,7 @@ export default function HeroSection() {
               অ্যাপ ডাউনলোড করুন
             </Button>
 
-            <Button className="border-green-700 text-green-700 hover:bg-green-100 px-6 py-3 font-semibold">
+            <Button variant={"ghost"} className="border-green-700 text-green-700 hover:bg-green-100 px-6 py-3 font-semibold">
               🎯 ডেমো দেখুন
             </Button>
           </div>

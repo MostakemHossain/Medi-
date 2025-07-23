@@ -5,6 +5,7 @@ import HeroSection from "@/components/Home/Hero";
 import Navbar from "@/components/Home/Navbar";
 import PrescriptionGuide from "@/components/Home/PrescriptionGuide";
 import PricingSection from "@/components/Home/PricingSection";
+import PrescriptionTransformSection from "@/components/Home/Transformation";
 import UploadPrescription from "@/components/Home/UploadPrescription";
 import WhyUseUsSection from "@/components/Home/WhyUseUsSection";
 
@@ -13,6 +14,7 @@ export default function Home() {
     <div>
       <Navbar/>
       <HeroSection/>
+      <PrescriptionTransformSection/>
       <PrescriptionGuide/>
       <UploadPrescription/>
       <WhyUseUsSection/>
