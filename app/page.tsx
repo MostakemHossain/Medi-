@@ -7,6 +7,7 @@ import PrescriptionGuide from "@/components/Home/PrescriptionGuide";
 import PricingSection from "@/components/Home/PricingSection";
 import PrescriptionTransformSection from "@/components/Home/Transformation";
 import UploadPrescription from "@/components/Home/UploadPrescription";
+import Testimonials from "@/components/Home/WhatOurClientSay";
 import WhyUseUsSection from "@/components/Home/WhyUseUsSection";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <WhyUseUsSection/>
       <PricingSection/>
       <FaqSection/>
+      <Testimonials/>
       <AppIntroSection/>
       <Footer/>
     </div>
